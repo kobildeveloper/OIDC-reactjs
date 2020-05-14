@@ -11,7 +11,7 @@ This repo contains ReactJS example app that demonstrate the various OpenId Conne
 6. Make sure you replace `your-midentity-one-oidc-tenant-id` with your TenantID and `your-midentity-one-oidc-app-client-id` with your ClientID  when you created your OpenId Connect app via the mIDentity One portal.
 7. Change `{partnerid}.{hostname}` to match the sub-domain by mIDentity One portal.
 
-**Note:** Make sure you had enabled **"Implicit Flow"** in your client configurations
+**Note:** Check with mIDentity One administrator to enable Implicit Flow
 
 ### Example
 ```
