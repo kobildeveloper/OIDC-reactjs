@@ -6,7 +6,12 @@ This repo contains ReactJS example app that demonstrate the various OpenId Conne
 1. Initially clone this repository
 2. RUN `npm install` and wait for the completion of installation on `node_modules`
 3. Once `node_modules` are installed and RUN `npm run start` to start execution of `react-scripts`
-4. You will receive a localhost URL, open that specific URL in the browser to view your initial screen
+4. You will receive a localhost URL, open that specific URL in the browser to view your initial screen <br/>
+5. You can configure your OIDC related information in ```src/model/Config.js``` path
+6. Make sure you replace `your-midentity-one-oidc-tenant-id` with your TenantID and `your-midentity-one-oidc-app-client-id` with your ClientID  when you created your OpenId Connect app via the mIDentity One portal.
+7. Change `{partnerid}.{hostname}` to match the sub-domain by mIDentity One portal.
+
+**Note:** Check with mIDentity One administrator to enable Implicit Flow
 
 ### Example
 ```
