@@ -31,7 +31,7 @@ class Home extends Component{
         return(
             <div className="mdWrapper">
                 <img src="./image/logo.png" alt="mIDentity One" />
-                <h3>mIdentity One Demo</h3>
+                <h3>mIdentity Box Demo</h3>
                 <h4>React JS - Implicit flow authentication</h4>
                 <button className="btn-normal" onClick={this.authenticateLogin}>Login</button>
             </div>
