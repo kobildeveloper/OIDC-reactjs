@@ -1,6 +1,6 @@
-export const CookieName = "mIdentity_Auth";
+export const CookieName = "midentity_Auth";
 export const Config = {
     "url": "https://{partnerId}.{hostname}/auth",
-    "realm": "your-midentity-one-oidc-tenant-id",
-    "clientId": "your-midentity-one-oidc-app-client-id"
+    "realm": "your-midentity-box-oidc-tenant-id",
+    "clientId": "your-midentity-box-oidc-app-client-id"
 }
