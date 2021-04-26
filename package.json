@@ -1,5 +1,5 @@
 {
-  "name": "midentityone-implicitflow",
+  "name": "midentitybox-implicitflow",
   "version": "1.0.0",
   "private": true,
   "description": "A reactjs application for implicit flow using openid connect",
