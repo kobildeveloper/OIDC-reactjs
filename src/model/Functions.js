@@ -29,4 +29,5 @@ export const parseToken = function(token) {
         return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
     }).join(''));
     sessionStorage.setItem("mIdentityID", JSON.parse(authObject).sub);
+    return JSON.parse(authObject);
 };

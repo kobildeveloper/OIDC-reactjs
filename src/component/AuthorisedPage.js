@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { CookieName } from '../model/Config';
-import { GetCookieValue } from '../model/Functions';
+import { GetCookieValue, parseToken } from '../model/Functions';
 
 class AuthorisedPage extends Component{
     constructor(){
         super();
         this.state = {
-            username: GetCookieValue(CookieName)
+            username: parseToken(GetCookieValue(CookieName)).preferred_username
         }
     }
     render(){
