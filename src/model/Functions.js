@@ -1,5 +1,5 @@
 export const getCurrentUser = () => {
-  if (GetCookieValue("mIdentity_Auth")) {
+  if (GetCookieValue("midentity_Auth") && sessionStorage.getItem("authKey")) {
     return true;
   }
   return false;
